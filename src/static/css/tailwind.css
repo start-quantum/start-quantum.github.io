@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("/static/fonts/CascadiaCode.woff2") format("woff2");
+}
+
 /*Your Custom CSS Goes here*/
 
 h1 {
@@ -20,5 +25,6 @@ h3 {
 
 body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
-  @apply bg-gray-800;
+  padding: 0.3em;
+  @apply bg-gray-800 text-gray-200;
 }

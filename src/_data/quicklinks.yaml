@@ -9,3 +9,15 @@ links:
   - title: Community
     url: "/community"
     desc: Connect with other quantum developers.
+learn:
+  - title: Learn Quantum Computing with Python and Q#
+    url: "https://bit.ly/qsharp-book"
+    desc: Get started on your quantum journey with this new book from Manning Publications.
+  - title: Quantum Development Kit docs
+    url: "https://docs.microsoft.com/azure/quantum"
+    desc: Conceptual and reference documentation for Q#.
+community:
+  - title: Q# Community
+    url: "https://qsharp.community"
+  - title: Unitary Fund
+    url: "https://unitary.fund"

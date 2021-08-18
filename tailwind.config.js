@@ -13,6 +13,9 @@ module.exports = {
     extend: {
       colors: {},
     },
+    fontFamily: {
+      'mono': ['Cascadia Code']
+    }
   },
   variants: {},
   plugins: [require("@tailwindcss/typography")],
