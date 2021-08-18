@@ -13,8 +13,7 @@ wget https://start-quantum.dev/install.sh
 
 ## Windows (10 and later)
 
-```powershell
-wget https://start-quantum.dev/install.ps1
-Unblock-File install.ps1
-./install.ps1
+```cmd
+curl https://start-quantum.dev/install.ps1 -o install.ps1
+powershell install.ps1
 ```
