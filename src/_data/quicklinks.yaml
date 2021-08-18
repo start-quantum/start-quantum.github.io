@@ -1,0 +1,11 @@
+---
+links:
+  - title: Learn
+    url: "/learn"
+    desc: Learn more about quantum concepts, development platforms, and languages.
+  - title: Install
+    url: "/install"
+    desc: Set up your dev machine in one easy step.
+  - title: Community
+    url: "/community"
+    desc: Connect with other quantum developers.

@@ -1,0 +1,8 @@
+---
+items:
+  - text: Learn
+    url: "/learn"
+  - text: Install
+    url: "/install"
+  - text: Community
+    url: "/community"
