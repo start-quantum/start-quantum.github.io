@@ -11,6 +11,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
+          include-prerelease: true
+      - run: |
+          ./build.ps1
+        shell: pwsh
+        working-directory: submodules/install-scripts/src
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:

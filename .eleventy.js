@@ -38,6 +38,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/static/img");
   eleventyConfig.addPassthroughCopy("./src/static/fonts");
 
+  // Copy install scripts to /_site.
+  eleventyConfig.addPassthroughCopy("**/install.ps1");
+  eleventyConfig.addPassthroughCopy("**/install.sh");
+  eleventyConfig.addPassthroughCopy({
+    "./submodules/install-scripts/src/bin/Release/net6.0/win10-x64/publish/": "install/win10",
+    "./submodules/install-scripts/src/bin/Release/net6.0/osx-x64/publish/": "install/osx",
+    "./submodules/install-scripts/src/bin/Release/net6.0/linux-x64/publish/": "install/linux"
+  });
+
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
 

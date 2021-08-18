@@ -1,0 +1,3 @@
+[submodule "submodules/install-scripts"]
+	path = submodules/install-scripts
+	url = https://github.com/start-quantum/install-scripts.git
