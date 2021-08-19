@@ -13,7 +13,7 @@ wget https://start-quantum.dev/install.sh
 
 ## Windows (10 and later)
 
-```cmd
+```batch
 curl https://start-quantum.dev/install.ps1 -o install.ps1
 powershell install.ps1
 ```
