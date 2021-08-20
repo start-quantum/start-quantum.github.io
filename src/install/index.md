@@ -26,5 +26,5 @@ Set-ExecutionPolicy Bypass -Force -Scope CurrentUser
 
 ```bash
 wget https://start-quantum.dev/install.sh
-./install.sh
+bash ./install.sh
 ```
